@@ -21,7 +21,16 @@
     "lib": [
       "es2020",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ui-footer": [
+        "dist/ui-footer/ui-footer",
+        "dist/ui-footer"
+      ],
+      "ui-navbar": [
+        "../node_modules/vincent-ui-navbar-library"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
